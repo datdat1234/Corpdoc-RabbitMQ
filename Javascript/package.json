@@ -1,0 +1,19 @@
+{
+  "name": "corpdoc-rabbitmq",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "producer": "node src/producer.js",
+    "consumer": "node src/consumer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.4.5"
+  }
+}
